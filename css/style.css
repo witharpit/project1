@@ -1,6 +1,25 @@
-body{
-    background-color: aquamarine;
+
+*{
+    padding: 50%,50%;
+    font-family: jazzier,fantasy,Garamond;
+}
+header{
+    text-align: center;
 }
 h1 {
+    color: #4676A9;
+    text-align: center;
     
+}
+h2{
+    color: #CB731C ;
+    text-align:start ;
+}
+h3{
+    text-align: start;
+}
+footer{
+    background-color: #22466C ;
+    color: #fff;
+    padding: 20px;
 }
