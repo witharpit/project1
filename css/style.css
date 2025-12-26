@@ -2,9 +2,8 @@
 body{
     background-color: aliceblue;
     font-family: sans-serif;
-    margin:5%;
    font-size: 1.5rem;
-   line-height: 1.5;
+   line-height: 1.6;
 }
 
 header{
@@ -13,8 +12,8 @@ header{
 h1 {
     color: #4676A9;
     text-align: center;
-  
-    font: bolder;
+    font-size: 5rem;
+    line-height: 1;
 }
 h2{
     color: #CB731C ;
@@ -29,11 +28,17 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-block: 50px;
 }
-img{
-    align-content: center;
+ul{
+    margin-block: 15px;
 }
+section{
+    margin-block: 150px;
+}
+
 footer{
     background-color: #22466C ;
     color: #fff;
+    text-align: center;
+    
     
 }
