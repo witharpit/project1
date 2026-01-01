@@ -1,37 +1,38 @@
 *{
     box-sizing: border-box;
 }
+header{
+    text-align: center;
+}
 body{
-    background-color: aliceblue;
-    font-family: sans-serif;
+    background-color: #b7f8dd;
+    background-image: url("../images/restaurant.jpg");
     font-size: 1.5rem;
     line-height: 1.4;
     padding-inline: 10px;
     padding:0% 5%;
-    border: solid 10px #ffc0cb;
+    border: solid 10px #f1a961;
     margin: 0%;
 }
 
-header{
-    text-align: center;
-}
+
 h1 {
-    color: #4676A9;
+    color: darkgray;
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
     line-height: 1;
 }
 h2{
     color: #CB731C ;
     text-align:start ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 h3{
     text-align: start;
     font-family: sans-serif;
 }
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     margin-block: 30px;
 }
 ul{
@@ -48,19 +49,45 @@ section{
     width:100%;
     margin-bottom: 5%;
 }
-
-footer{
-    background-color: #22466C ;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;   
-    width: 100%;
-}
 .links{
     color: #ba9629;
     text-decoration: none;
 }
-header{
-    margin-top: 10px;
+
+.links:hover{
+    color: brown;
+}
+.links:active{
+    color: #fff;
+}
+.teal-bg{
+    background:#008080;
+    padding-inline: 2px; /*for left and right */
+    padding-block:2px;/*for bottom and top */
+    text-align: center;
+    color: #fff;
+    border: solid 5px #666;
+}
+.teal-bg strong{
+    color: #ca9b0e;
+}
+.teal-text{
+    color: teal;
+}
+.climber-bg{
+    background-image: url("../images/simple-steps.jpg");
+    color: #fff;
+    padding: 50px;
+    border: solid #5570ca 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover,contain ;
+}
+
+footer{
+    
+    text-align: center;   
+    width: 100%;
+    margin-bottom: 20px;
+    
 }
